@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body background="bg3.jpeg">
+    <header>
+      <h1 class="title">Fact or Fiction</h1>
+    </header>
+    <div class="container">
+      <div class="quiz-container">
+        <div class="question" id="question-text"></div>
+      </div>
+      <div class="button-container">
+        <button id="true-button">Yes</button>
+        <button id="false-button">No</button>
+      </div>
+      <!-- <div class="scoreboard">Score: <span id="score">0</span></div> -->
+      <div class="timer">Time: <span id="timer">0:00</span></div>
+    </div>
+    <!-- Modal for displaying answer explanation -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-heading"></h2>
+        <p id="modal-text"></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
